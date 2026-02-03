@@ -10,7 +10,7 @@
     };
 	};
 
-	outputs = { self, nixpkgs, nixvim, ... }: 
+	outputs = { self, nixpkgs, nixvim, ... }@inputs: 
 	let
 		lib = nixpkgs.lib;
 	in {
@@ -18,7 +18,7 @@
 			Tau = lib.nixosSystem {
 				system = "x86_64-linux";
 				specialArgs = { inherit nixvim; };
-				modules = [ ./configuration.nix ];
+				modules = [ ./configuration.nix ./nixvim.nix nixvim.nixosModules.nixvim ];
 			};
 		};
 	};

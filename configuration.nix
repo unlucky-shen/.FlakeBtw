@@ -83,10 +83,10 @@
   programs.gamemode.enable = true;
   programs.nm-applet.enable = true;
 
-  programs.neovim = {
-  	enable = true;
-	defaultEditor = true;
-  };
+	#  programs.neovim = {
+	#  	enable = true;
+	# defaultEditor = true;
+	#  };
 
   environment.systemPackages = with pkgs; [
 		# core utils
@@ -102,7 +102,7 @@
   	kitty zathura libreoffice fastfetch
 
 		# hyprland essentials
-		hyprpolkitagent dunst waybar libappindicator libayatana-appindicator wofi swww hyprsunsethypridle hyprshot hyprlock kdePackages.dolphin udiskie ntfs3g exfat
+		hyprpolkitagent dunst waybar libappindicator libayatana-appindicator wofi swww hyprsunset hypridle hyprshot hyprlock kdePackages.dolphin udiskie ntfs3g exfat
 
 		# misc
 		bibata-cursors

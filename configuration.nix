@@ -94,9 +94,9 @@
   	kitty zathura libreoffice fastfetch
 
 		# hyprland essentials
-		hyprpolkitagent dunst waybar libappindicator libayatana-appindicator wofi swww hyprsunset hypridle hyprshot hyprlock kdePackages.dolphin udiskie ntfs3g exfat
+		hyprpolkitagent dunst waybar libappindicator libayatana-appindicator wofi swww hyprsunsethypridle hyprshot hyprlock kdePackages.dolphin udiskie ntfs3g exfat
 
-		# Misc
+		# misc
 		bibata-cursors
 	];
   
@@ -107,7 +107,7 @@
   ];
 
 	# services
-        services.flatpak.enable = true;
+  services.flatpak.enable = true;
 	services.openssh.enable = true;
 	services.udisks2.enable = true;
 	services.auto-cpufreq.enable = true;

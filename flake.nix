@@ -1,5 +1,4 @@
 {
-
 	description = "FlakeBtw";
 
 	inputs = {
@@ -17,5 +16,4 @@
 			};
 		};
 	};
-
 }

@@ -31,7 +31,6 @@ programs.nixvim = {
       mouse = "a";
       termguicolors = true;
       showmode = false;
-      clipboard = "unnamedplus";
       wrap = true;
       tabstop = 2;
       shiftwidth = 2;
@@ -44,6 +43,8 @@ programs.nixvim = {
       winborder = "rounded";
     };
 
+		clipboard.register = "unnamedplus";
+    clipboard.providers.xclip.enable = true;
     colorschemes.gruvbox-material.enable = true;
 
 		imports = [ ./keybinds.nix ./plugins.nix ];

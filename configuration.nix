@@ -2,6 +2,7 @@
 {
   imports = [ 
 	./hardware-configuration.nix 
+	./nixvim.nix
 	];
   
 	boot.kernelParams = [ "nvidia-drm.modeset=1" "nvidia-drm.fbdev=1" "nvidia.NVreg_TemporaryFilePath=/var/tmp" ];

@@ -18,7 +18,7 @@
 			Tau = lib.nixosSystem {
 				system = "x86_64-linux";
 				specialArgs = { inherit nixvim; };
-				modules = [ ./configuration.nix ./nixvim.nix nixvim.nixosModules.nixvim ];
+				modules = [ ./configuration.nix ./nixvim nixvim.nixosModules.nixvim ];
 			};
 		};
 	};

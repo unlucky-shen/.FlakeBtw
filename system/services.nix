@@ -1,4 +1,4 @@
-{ ... }: 
+{ config, pkgs, lib, ... }: 
 {
 	services.flatpak.enable = true;
 	services.openssh.enable = true;

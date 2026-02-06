@@ -1,4 +1,4 @@
-# FlakeBtw
+# FlakeBtw 󱄅 
 
 My attempt on making a "minimal"-ish NixOS flake. ts so tedious wtf sdfasfgsdfjkbnskjdb
 
@@ -6,7 +6,9 @@ My attempt on making a "minimal"-ish NixOS flake. ts so tedious wtf sdfasfgsdfjk
 
 ```
 curl https://raw.githubusercontent.com/unlucky-shen/.FlakeBtw/main/install.sh > install.sh
+
 chmod +x ./install.sh
+
 ./install.sh
 ```
 

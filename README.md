@@ -1,4 +1,4 @@
-# FlakeBtw 󱄅 
+# FlakeBtw ❄️
 
 My attempt on making a "minimal"-ish NixOS flake. ts so tedious wtf sdfasfgsdfjkbnskjdb
 

@@ -20,7 +20,6 @@
 		ripgrep 
 		fd 
 		eza 
-		bat 
 		auto-cpufreq 
 		killall 
 		networkmanagerapplet

@@ -2,6 +2,8 @@
 
 My attempt on making a "minimal"-ish NixOS flake. Still a work in progress...
 
+Experience has been FLAWLESS on NixOS sofar, best distro ong T_T
+
 ### Installation
 
 ```

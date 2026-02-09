@@ -1,4 +1,4 @@
-{ config, pkgs, lib, user, host, ... }: 
+{ config, pkgs, lib, user, host, ... }:
 
 {
 	imports = [ 
@@ -10,7 +10,6 @@
 	];
 
 	boot.supportedFilesystems = [ "ntfs" "exfat" ];
-	
 	boot.loader.systemd-boot.enable = true;
 	boot.loader.efi.canTouchEfiVariables = true;
 
@@ -34,7 +33,6 @@
 		pulse.enable = true;
 	};
 
-	# fonts
 	fonts.packages = with pkgs; [
 		nerd-fonts.symbols-only
 		nerd-fonts.jetbrains-mono
@@ -43,7 +41,6 @@
 	networking.firewall.enable = true;
 
 	nixpkgs.config.allowUnfree = true;
-
 	nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 	system.stateVersion = "25.11";

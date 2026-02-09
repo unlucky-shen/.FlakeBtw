@@ -24,4 +24,4 @@ nvidia-offload %command%
 - [x] Porting my neovim lua config to nix
 - [x] Modularize NixOS
 - [ ] Making entire system "declarative"
-- [ ] Fixed borked install script T_T
+- [x] Fixed borked install script T_T

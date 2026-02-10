@@ -41,7 +41,6 @@
 		kitty
 		zathura 
 		libreoffice 
-		fastfetch
 		protonup-qt
 		
 		# misc

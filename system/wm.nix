@@ -31,7 +31,7 @@
 
 	environment.systemPackages = with pkgs; [
 		hyprpolkitagent 
-		mako 
+		mako
 		waybar 
 		libappindicator 
 		libayatana-appindicator 

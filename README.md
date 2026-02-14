@@ -15,3 +15,4 @@ nvidia-offload %command%
 - [x] Modularize NixOS
 - [x] Fixed borked install script T_T
 - [x] Migrate from normal config files to using Home-Manager
+- [x] Tweaks for gaming

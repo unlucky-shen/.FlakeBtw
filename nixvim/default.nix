@@ -44,9 +44,11 @@
 			winborder = "rounded";
 		};
 
+		colorschemes.vague.enable = true;
+
 		clipboard.register = "unnamedplus";
 		clipboard.providers.xclip.enable = true;
 
-		imports = [ ./keybinds.nix ./plugins.nix ./zenbones.nix ];
+		imports = [ ./keybinds.nix ./plugins.nix ];
 	};
 }

@@ -18,7 +18,6 @@
 		fzf 
 		ripgrep 
 		fd 
-		eza 
 		auto-cpufreq 
 		killall 
 

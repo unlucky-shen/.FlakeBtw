@@ -44,7 +44,17 @@
 			winborder = "rounded";
 		};
 
-		colorschemes.vague.enable = true;
+		colorschemes.gruvbox-material = {
+			enable = true;
+			settings = {
+				foreground = "mix";
+				background = "hard";
+				ui_contrast = "high";
+				float_style = "bright";
+				statusline_style = "mix";
+				cursor = "auto";
+			};
+		};
 
 		clipboard.register = "unnamedplus";
 		clipboard.providers.xclip.enable = true;

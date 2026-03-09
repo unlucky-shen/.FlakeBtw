@@ -35,7 +35,7 @@
 
 	fonts.packages = with pkgs; [
 		nerd-fonts.symbols-only
-		nerd-fonts.jetbrains-mono
+		nerd-fonts.geist-mono
 	];
 
 	networking.firewall.enable = true;

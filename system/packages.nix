@@ -20,6 +20,7 @@
 		fd 
 		auto-cpufreq 
 		killall 
+		brightnessctl
 
 		# dev tools
 		git 

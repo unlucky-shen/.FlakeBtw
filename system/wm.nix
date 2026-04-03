@@ -36,6 +36,7 @@
 		libayatana-appindicator 
 		wofi 
 		swaybg 
+		swayimg
 		hyprsunset 
 		hypridle 
 		hyprshot 

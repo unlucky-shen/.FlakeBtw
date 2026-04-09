@@ -59,6 +59,6 @@
 		clipboard.register = "unnamedplus";
 		clipboard.providers.xclip.enable = true;
 
-		imports = [ ./keybinds.nix ./plugins.nix ];
+		imports = [ ./keybinds.nix ./plugins.nix ./formatter.nix ./cmp.nix ];
 	};
 }

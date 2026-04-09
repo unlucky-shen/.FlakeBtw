@@ -1,4 +1,5 @@
 { config, pkgs, lib, nixvim, ... }:
+
 {
 	options = { formatter.enable = true; };
   config = {

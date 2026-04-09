@@ -58,10 +58,10 @@
 
 		clipboard.register = "unnamedplus";
 		clipboard.providers.xclip.enable = true;
+	};
 
-		imports = [ 
+	imports = [ 
 		./keybinds.nix 
 		./plugins
-		];
-	};
+	];
 }

@@ -49,4 +49,10 @@
 			# r_language_server.enable = true;
 		};
 	};
+
+	imports = [
+		./formatter.nix
+		./cmp.nix
+		./toggleterm.nix
+	];
 }

@@ -61,10 +61,7 @@
 
 		imports = [ 
 		./keybinds.nix 
-		./plugins.nix 
-		./formatter.nix 
-		./cmp.nix 
-		./toggleterm.nix 
+		./plugins
 		];
 	};
 }

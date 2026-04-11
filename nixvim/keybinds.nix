@@ -32,7 +32,7 @@
 		{
 			mode = "n";
 			key = "<leader>h";
-			action = ":Pick hekp<CR>";
+			action = ":Pick help<CR>";
 			options = {
 				desc = "Find Docs";
 				silent = true;

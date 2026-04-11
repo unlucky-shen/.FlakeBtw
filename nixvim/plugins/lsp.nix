@@ -22,6 +22,7 @@
 			nixd.enable = true;
 			tinymist.enable = true;
 			bashls.enable = true;
+			marksman.enable = true;
 		};
 	};
 }

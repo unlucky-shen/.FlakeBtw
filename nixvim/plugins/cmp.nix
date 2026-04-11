@@ -1,6 +1,4 @@
-{ config, pkgs, lib, nixvim, ... }:
-
-{
+{ ... }: {
   plugins = {
     cmp-buffer.enable = true;
     cmp-emoji.enable = true;

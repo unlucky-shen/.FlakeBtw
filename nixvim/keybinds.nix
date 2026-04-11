@@ -1,4 +1,4 @@
-{ config, nixvim, ... }:
+{ config, pkgs, lib, nixvim, ... }:
 
 {
 	keymaps = [
@@ -7,7 +7,8 @@
 			key = "<leader>w";
 			action = ":w<CR>";
 			options = {
-			silent = true;
+				desc = "Save";
+				silent = true;
 			};
 		}
 		{
@@ -15,7 +16,8 @@
 			key = "<leader>q";
 			action = ":q<CR>";
 			options = {
-			silent = true;
+				desc = "Quit";
+				silent = true;
 			};
 		}
 		{
@@ -23,15 +25,17 @@
 			key = "<leader>f";
 			action = ":Pick files<CR>";
 			options = {
-			silent = true;
+				desc = "Find Files";
+				silent = true;
 			};
 		}
 		{
 			mode = "n";
 			key = "<leader>h";
-			action = ":Pick help<CR>";
+			action = ":Pick hekp<CR>";
 			options = {
-			silent = true;
+				desc = "Find Docs";
+				silent = true;
 			};
 		}
 		{
@@ -39,15 +43,8 @@
 			key = "<leader>g";
 			action = ":Pick grep_live<CR>";
 			options = {
-			silent = true;
-			};
-		}
-		{
-			mode = "n";
-			key = "<leader>lf";
-			action = "vim.lsp.buf.format";
-			options = {
-			silent = true;
+				desc = "Grep Files";
+				silent = true;
 			};
 		}
 	];

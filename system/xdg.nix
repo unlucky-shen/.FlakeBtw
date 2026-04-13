@@ -3,7 +3,6 @@
 {
 	xdg.mime = {
 		enable = true;
-		extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 		addedAssociations = {
 			"application/vnd.openxmlformats-officedocument.wordprocessingml.document" = [ "libreoffice-writer.desktop" ];
 			"application/msword" = [ "libreoffice-writer.desktop" ];

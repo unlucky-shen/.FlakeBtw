@@ -15,7 +15,6 @@
 				"typst"
 				"bash"
 				"markdown"
-				"markdown-inline"
 			];
 			highlight.enable = true;
 		};

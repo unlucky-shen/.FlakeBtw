@@ -1,29 +1,25 @@
 { pkgs, ... }:
 
 {
-	xdg.mimeApps = let
-		writer = "libreoffice-writer.desktop";
-		calc = "libreoffice-calc.desktop";
-		zathura = "org.pwmt.zathura.desktop";
-	in {
+	xdg.mime = {
 		enable = true;
-		association.added = {
-		"application/vnd.openxmlformats-officedocument.wordprocessingml.document" = writer;
-		"application/msword" = writer;
-		"application/vnd.oasis.opendocument.text" = writer;
-		"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" = calc;
-		"application/vnd.ms-excel" = calc;
-		"application/vnd.oasis.opendocument.spreadsheet" = calc;
-		"application/pdf" = zathura;
+		addedAssociations = {
+			"application/vnd.openxmlformats-officedocument.wordprocessingml.document" = "libreoffice-writer.desktop";
+			"application/msword" = "libreoffice-writer.desktop";
+			"application/vnd.oasis.opendocument.text" = "libreoffice-writer.desktop";
+			"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" = "libreoffice-calc.desktop";
+			"application/vnd.ms-excel" = "libreoffice-calc.desktop";
+			"application/vnd.oasis.opendocument.spreadsheet" = "libreoffice-calc.desktop";
+			"application/pdf" = "org.pwmt.zathura.desktop";
 		};
 		defaultApplications = {
-		"application/vnd.openxmlformats-officedocument.wordprocessingml.document" = writer;
-		"application/msword" = writer;
-		"application/vnd.oasis.opendocument.text" = writer;
-		"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" = calc;
-		"application/vnd.ms-excel" = calc;
-		"application/vnd.oasis.opendocument.spreadsheet" = calc;
-		"application/pdf" = zathura;
+			"application/vnd.openxmlformats-officedocument.wordprocessingml.document" = "libreoffice-writer.desktop";
+			"application/msword" = "libreoffice-writer.desktop";
+			"application/vnd.oasis.opendocument.text" = "libreoffice-writer.desktop";
+			"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" = "libreoffice-calc.desktop";
+			"application/vnd.ms-excel" = "libreoffice-calc.desktop";
+			"application/vnd.oasis.opendocument.spreadsheet" = "libreoffice-calc.desktop";
+			"application/pdf" = "org.pwmt.zathura.desktop";
 		};
 	};
 }

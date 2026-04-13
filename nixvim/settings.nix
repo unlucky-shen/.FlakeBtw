@@ -28,7 +28,7 @@
 			mouse = "a";
 			termguicolors = true;
 			showmode = false;
-			wrap = true;
+			wrap = false;
 			tabstop = 2;
 			shiftwidth = 2;
 			swapfile = false;

@@ -7,6 +7,7 @@
 		./packages.nix
 		./services.nix
 		./wm.nix
+		./xdg.nix
 		./hadoop.nix
 	];
 

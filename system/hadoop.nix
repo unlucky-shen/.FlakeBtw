@@ -4,10 +4,10 @@ let
   hadoop_home = "/var/lib/hadoop";
 in
 {
-  # 1. Install the package
+  # Install Hadoop
   environment.systemPackages = [ pkgs.hadoop pkgs.jdk11 ];
 
-  # 2. Create a dedicated user/group
+  # Create a dedicated user
   users.users.hadoop = {
     isSystemUser = true;
     group = "hadoop";
@@ -17,7 +17,7 @@ in
   };
   users.groups.hadoop = {};
 
-  # 3. Manual Systemd Services
+  # Systemd Services
   systemd.services.hadoop-namenode = {
     description = "Hadoop NameNode";
     after = [ "network.target" ];

@@ -34,13 +34,13 @@
 		pulse.enable = true;
 	};
 
+	fonts.fontconfig.enable = true;
 	fonts.packages = with pkgs; [
 		nerd-fonts.symbols-only
 		nerd-fonts.jetbrains-mono
 		nerd-fonts.geist-mono
 		crimson-pro
 	];
-	fonts.fontconfig.enable = true;
 
 	networking.firewall.enable = true;
 

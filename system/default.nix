@@ -38,8 +38,9 @@
 		nerd-fonts.symbols-only
 		nerd-fonts.jetbrains-mono
 		nerd-fonts.geist-mono
-		eb-garamond
+		crimson-pro
 	];
+	fonts.fontconfig.enable = true;
 
 	networking.firewall.enable = true;
 

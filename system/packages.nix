@@ -38,10 +38,10 @@
 		kitty
 		zathura 
 		libreoffice 
+		spotify
 		protonup-qt
 		
 		# misc
 		bibata-cursors
-		zotero
 	];
 }

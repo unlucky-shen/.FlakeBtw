@@ -42,5 +42,6 @@
 		
 		# misc
 		bibata-cursors
+		zotero
 	];
 }

@@ -10,6 +10,7 @@
 		wget 
 		curl 
 		wl-clipboard 
+		zip
 		unzip 
 		p7zip 
 		libarchive 

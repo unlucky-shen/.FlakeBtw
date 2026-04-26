@@ -4,12 +4,11 @@
 	plugins = {
 		web-devicons.enable = true;
 		mini-pick.enable = true;
+		mini-statusline.enable = true;
 		nvim-autopairs.enable = true;
-		flash.enable = true;
 		indent-blankline.enable = true;
 		friendly-snippets.enable = true;
 		luasnip.enable = true;
-		lualine.enable = true;
 	};
 
 	imports = [

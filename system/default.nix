@@ -7,6 +7,7 @@
 		./packages.nix
 		./services.nix
 		./wm.nix
+		./data-science.nix
 	];
 
 	boot.supportedFilesystems = [ "ntfs" "exfat" ];
